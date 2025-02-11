@@ -9,3 +9,5 @@ University project on evaluating default probabilities of Austrian companies
 - Based on the results of cross validation (see the chart below) we chose to train random forests on the whole dataset (winsorized + log-transformed), since the distribution of Gini coefficients has the lowest variance and the highest median Gini.
 
 ![Project Screenshot](images/CV_Gini.png)
+
+- Check [presentation](https://github.com/mike-kazakov/Credit_risk_modelling/blob/main/Presentation/Risk%20Management%20Rating%20Model.pdf) to delve deeper into the project
