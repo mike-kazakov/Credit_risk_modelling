@@ -7,3 +7,5 @@ University project on evaluating default probabilities of Austrian companies
 - After data cleaning and feature engineering we tried different ways to transform data to get rid of outliers (winsorizing and combination of winsorizing and log transformation).
 - For 2 transformed training datasets we carried out repeated stratified 10-fold cross validation to check the performance and the robustness of three models: logistic regression, gradient boosting and random forests.
 - Based on the results of cross validation (see the chart below) we chose to train random forests on the whole dataset (winsorized + log-transformed), since the distribution of Gini coefficients has the lowest variance and the highest median Gini.
+
+![Project Screenshot](images/CV_Gini.png)
